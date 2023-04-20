@@ -23,7 +23,7 @@ const onCallback = (response: FailResponse) => {
   console.log('🚀 ~ file: index.tsx:20 ~ onCallback ~ response:', response);
 };
 
-const facebookAppId = process.env.FACEBOOK_APP_ID ?? '';
+const facebookAppId = process.env.NEXT_PUBLIC_FACEBOOK_APP_ID ?? '';
 
 const Index: NextPage = () => (
   <Box
